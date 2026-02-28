@@ -1,6 +1,6 @@
 ---
 name: closed-loop-development
-description: Enforces continuous verify-fix-commit loop during development. Discovers project verification stack (typecheck, lint, test, build), generates AGENTS.md for new projects, assesses blast radius before changes, and runs full verification after every edit. Triggers: entering unfamiliar codebase, code changes keep breaking, implementing features across multiple files, or when verification discipline is needed.
+description: "Enforces continuous verify-fix-commit loop during development. Discovers project verification stack (typecheck, lint, test, build), generates AGENTS.md for new projects, assesses blast radius before changes, and runs full verification after every edit. Triggers: entering unfamiliar codebase, code changes keep breaking, implementing features across multiple files, or when verification discipline is needed."
 ---
 
 # Closed Loop Development
