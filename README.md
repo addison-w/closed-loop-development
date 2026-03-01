@@ -60,7 +60,17 @@ Built using RED-GREEN-REFACTOR methodology *for agent skills*:
 
 ## 📦 Install
 
-### Claude Code
+### Using Skills CLI (Recommended)
+
+```bash
+# bunx
+bunx skills add addison-w/closed-loop-development -g
+
+# npx
+npx skills add addison-w/closed-loop-development -g
+```
+
+### Claude Code (Manual)
 
 ```bash
 mkdir -p ~/.claude/skills/closed-loop-development
@@ -68,7 +78,7 @@ curl -o ~/.claude/skills/closed-loop-development/SKILL.md \
   https://raw.githubusercontent.com/addison-w/closed-loop-development/main/SKILL.md
 ```
 
-### OpenCode / Other Agents
+### OpenCode / Other Agents (Manual)
 
 ```bash
 mkdir -p ~/.agents/skills/closed-loop-development
